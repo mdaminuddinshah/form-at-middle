@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 1fr 0.2fr;
+     /*  MANTAP */
+     background: url('./folder/gambar/asf.jpg') no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 50px;
+    margin: -30px 0 0;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer:hover {
+    color: black;
+}
+
+.container {
+    color: white;
+    width: 300px;
+    border-radius: 40px;
+    border: 1px solid rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+    margin: 90px 0 0;
+    box-shadow: 10px 10px 0 0 rgba(0,0,0,0.3);
+}
+
+.container:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.title-form {
+    font-size: 36px;
+    text-align: center;
+}
+
+.title-form:hover {
+    color: rgba(0,0,0,0.7);
+}
+
+.input-username, .input-password  {
+    margin: 30px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-username input, .input-password input {
+    width: 280px;
+    height: 40px;
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid rgba(255,255,255,0.4);
+    padding: 20px;
+    color: rgb(1, 17, 16);
+}
+
+/* bila hover */
+.input-password input:hover, .input-username input:hover {
+    border-color: rgba(255,255,255,1);
+}
+
+/* bila click */
+.input-password input:focus, .input-username input:focus {
+    border-color: rgb(255, 255, 255);
+    outline: none;
+}
+
+
+/* MANTAP */
+.input-password input::placeholder, .input-username input::placeholder {
+    color: white;
+}
+
+i {
+    position: absolute;
+    right: 30px;
+    font-size: 16px;
+
+    /*  MANTAP */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+
+.input-checkbox a {
+    color: white;
+    text-decoration: none;
+}
+
+.input-checkbox a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.login-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.btn {
+    width: 90px;
+    height: 25px;
+    border-radius: 25px;
+    font-weight: 700;
+    border: 1px solid rgb(29, 28, 28);
+    box-shadow: 2.5px 3px 0 0 black;
+}
+.btn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.register {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5px 0 5px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: white;
+}
+
+.register p a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
