@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 0.2fr;
      /*  MANTAP */
-     background: url('./folder/gambar/asf.jpg') no-repeat;
+     background: url('../images/asf.jpg') no-repeat;
      background-size: cover;
      background-position: center;
      height: 100vh;
